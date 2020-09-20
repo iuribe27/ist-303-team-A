@@ -1,9 +1,9 @@
-# ist-303-team-A-GroupProject
+# IST-303-Team-A-GroupProject
 # Team Name: 
 Post-It Fo' Lyfe Crew
 # Team Members:
 Adam Trudgeon, Isabela Uribe, Mabel Hanken, Ted Chang
-# Applicaton Concept:
+# Application Concept:
 A virtual post-it note board that allows users to manage thoughts, notes, lists. Allows you to carry your post-it notes wherever you go! 
 # Stakeholders: 
 All users, including us! It's a public app.
