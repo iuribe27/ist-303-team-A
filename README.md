@@ -68,3 +68,11 @@ As a User, I can create a Board to group interests/topics
 As a User, I can share my board with friends. 
 - Create Share via Copy Link functionality (Mabel/Ted)
 - Create 'Invite Friends' functionality (Mabel/Ted)
+# Milestone 1.0 (2 iterations) - 30 days:
+## Iteration 1 (15 days)
+1. Account Creation & Login
+2. Add a Profile Picture
+3. Create a Post-It
+## Iteration 2 (15 days)
+4. Modifying a Post-It
+5. Delete a Post-It
