@@ -42,8 +42,8 @@ As a User, I can create a new post-it.
 - Create Post-It Colors selectability (Ted)
 - Create Text-Editing abilities / Font-style selections (Ted)
 - Create 'Add to Board' button (Ted)
-- Create Add tags functionality for searchablity (Te)
-- Create last-modified and created-on timestamps (Te)
+- Create Add tags functionality for searchablity (Ted)
+- Create last-modified and created-on timestamps (Ted)
 ## 4. Modifying a Post-It - 5 days
 As a User, I can modify an existing post-it content and aesthetics. 
 - Create Edit functionality (Adam)
