@@ -8,10 +8,6 @@ app = Flask(__name__)
 #use decorators to link the function to a url
 @app.route('/')
 def home():
-    return "Welcome to Post It Fo' Life" #returns a string
-
-@app.route('/welcome')
-def welcome():
     return render_template('welcome.html') # render a template
 
 #route for handling the login page logic
