@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>Flask Intro</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='/style.css') }}" media="all" />
+		<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+		<title>Landing Page</title>
 	</head>
+	<center><div class="container">
+		<h1>Welcome to Post-It Fo' Lyfe!</h1>
+		<br>
+	</div></center>
 	<body>
-		<div class="container">
-			<h1>Welcome to Post-It Fo' Lyfe!</h1>
-			<br>
-			<p>Login to your account <a href="/login">here</a>!</p>
-			<p>Click <a href="/upload">here</a> to upload a profile picture.</p>
-		</div>
+		<center><div id='frame'>
+			<a class="note sticky1" href="/login">
+				<div class='pin'></div>
+				<div class='text'>Log in to your account here!</div>
+			</a>
+			<a class="note sticky2">
+				<div class='pin'></div>
+				<div class='text'>Don't have an account? Create one for FREE!</div>
+			</a>
+			<a class="note sticky1" href="/upload">
+				<div class='pin'></div>
+				<div class='text'>Click here to upload a profile picture!</div>
+			</a>
+			<a class="note sticky3">
+				<div class='pin'></div>
+				<div class='text'>I don't know what else to write on these..</div>
+			</a>
+			<a class="note sticky4">
+				<div class='pin'></div>
+				<div class='text'>.Maybe some cool features of post-it notes<br></div>
+			</a>
+			<a class="note sticky3">
+				<div class='pin'></div>
+				<div class='text'>Or links to social media?</div>
+			</a>
+			<a class="note sticky1">
+				<div class='pin'></div>
+				<div class='text'>Or we can just delete these</div>
+			</a>
+			<a class="note sticky3">
+				<div class='pin'></div>
+				<div class='text'>*shrug*</div>
+			</a>
+		</div></center>
 	</body>
 </html>
