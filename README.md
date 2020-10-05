@@ -31,12 +31,12 @@ As a User, I can create an account and login.
   - Include storage database for accounts
 - Create a 'Login' screen (Adam)
 - Create branding/background images (Mabel)
-## 2. Add a Profile Picture - 3 days
+## 2. Add a Profile Picture - 2 days
 As a User, I can add a profile picture.
 - Create Upload functionality (Isabela)
 - Change Picture functionality (Isabela)
 - Have stock images for avatars (Isabela)
-## 3. Create a Post-It - 5 days
+## 3. Create a Post-It - 4 days
 As a User, I can create a new post-it.
 - Create New Post-It functionality (Ted)
 - Create Post-It Colors selectability (Ted)
@@ -44,13 +44,13 @@ As a User, I can create a new post-it.
 - Create 'Add to Board' button (Ted)
 - Create Add tags functionality for searchablity (Ted)
 - Create last-modified and created-on timestamps (Ted)
-## 4. Modifying a Post-It - 5 days
+## 4. Modifying a Post-It - 4 days
 As a User, I can modify an existing post-it content and aesthetics. 
 - Create Edit functionality (Adam)
 - Create Change Post-It Colors selectability (Adam)
 - Create Change Text-Editing abilities / Font-style selections (Adam)
 - Create Change 'Add to Board' button (Adam)
-## 5. Delete a Post-It - 5 days
+## 5. Delete a Post-It - 3 days
 As a User, I can delete a post-it.
 - Create delete/Trash can functionality (Mabel)
 - Create 'Are you sure?' confirmation pop-up window? (Mabel)
@@ -68,11 +68,11 @@ As a User, I can create a Board to group interests/topics
 As a User, I can share my board with friends. 
 - Create Share via Copy Link functionality (Mabel/Ted)
 - Create 'Invite Friends' functionality (Mabel/Ted)
-# Milestone 1.0 (2 iterations) - 30 days:
-## Iteration 1 (15 days)
+# Milestone 1.0 (2 iterations) - 16 days (40 days at a 0.4 velocity):
+## Iteration 1 (20 days)
 1. Account Creation & Login
 2. Add a Profile Picture
 3. Create a Post-It
-## Iteration 2 (15 days)
+## Iteration 2 (20 days)
 4. Modifying a Post-It
 5. Delete a Post-It
