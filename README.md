@@ -7,19 +7,23 @@ Adam Trudgeon, Isabela Uribe, Mabel Hanken, Ted Chang
 A virtual post-it note board that allows users to manage thoughts, notes, lists. Allows you to carry your post-it notes wherever you go! 
 # Stakeholders: 
 All users, including us! It's a public app.
-# Instructions:
+# Instructions for Running the Application:
 1. Install Virtual Environment by typing into Command Prompt: pip install virtualenv
 2. Press Enter
 3. Create virtual environment by typing into Command Prompt: virtualenv venv
 4. Press Enter
 5. Activate virtual environment by typing into Command Prompt: .\venv\Scripts\activate
 6. Press Enter
-7. Install requirement packages by typing into Command Prompt: pip install -r requirements.txt
+7. Clone Application repository by typing into Command Prompt: git clone https://github.com/iuribe27/ist-303-team-A.git
 8. Press Enter
-9. Start the program by typing into Command Prompt: python3 app.py
+9. Change directory to cloned app folder by typing to Command Prompt: cd ist-303-team-A
 10. Press Enter
-11. Copy & Paste local host http://127.0.0.1:5000/ into internet browser 
-12. That's it, you're running the app :)
+11. Install requirement packages by typing into Command Prompt: pip install -r requirements.txt
+12. Press Enter
+13. Start the program by typing into Command Prompt: python3 app.py
+14. Press Enter
+15. Copy & Paste local host http://127.0.0.1:5000/ into internet browser 
+16. That's it, you're running the app :)
 # User Stories:
 ## 1. Account Creation & Login - 3 days
 As a User, I can create an account and login. 
