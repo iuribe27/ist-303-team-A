@@ -1,15 +1,4 @@
-Require packages & softwares:
+##Require packages & softwares:
 Python 3
 Flask==1.1.2
 Flask-Reuploaded==0.3.2
-
-Where to download:
-
-
-Install sequence:
-
-
-How to start:
-
-
-Possible questions and answers:
