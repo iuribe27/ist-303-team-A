@@ -7,7 +7,7 @@ Adam Trudgeon, Isabela Uribe, Mabel Hanken, Ted Chang
 A virtual post-it note board that allows users to manage thoughts, notes, lists. Allows you to carry your post-it notes wherever you go! 
 # Stakeholders: 
 All users, including us! It's a public app.
-#Instructions:
+# Instructions:
 1. Install Virtual Environment by typing into Command Prompt: pip install virtualenv
 2. Press Enter
 3. Create virtual environment by typing into Command Prompt: virtualenv venv
