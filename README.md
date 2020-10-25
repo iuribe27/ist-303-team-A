@@ -93,3 +93,5 @@ As a User, I can share my board with friends.
 ## Iteration 2 (20 days)
 4. Modifying a Post-It
 5. Delete a Post-It
+# Burndown Progress Chart
+To view click here https://1drv.ms/x/s!BEcHh6Oz5R4dg-Z1qyebkecY3OvNTA?e=uvL1eM
