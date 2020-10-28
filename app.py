@@ -79,6 +79,12 @@ def display_image(filename):
 
 ##END for Profile Image Uploader
 
+#Create Post-Its - Ted's Code
+@app.route('/post_its', methods=['GET','POST'])
+def post_its():
+    return render_template('index.html')
+
+
 #start the server with run()
 if __name__ == "__main__":
     app.run(debug=True)
