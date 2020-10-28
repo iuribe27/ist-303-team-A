@@ -20,7 +20,7 @@ All users, including us! It's a public app.
 10. Press Enter
 11. Install requirement packages by typing into Command Prompt: pip install -r requirements.txt
 12. Press Enter
-13. Start the program by typing into Command Prompt: python3 app.py
+13. Start the program by typing into Command Prompt: python3 run.py
 14. Press Enter
 15. Copy & Paste local host http://127.0.0.1:5000/ into internet browser
 16. That's it, you're running the app :)
