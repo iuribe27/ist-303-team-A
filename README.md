@@ -59,7 +59,6 @@ As a User, I can create a new post-it.
 - Create Post-It Colors selectability (Ted)
 - Create Text-Editing abilities / Font-style selections (Ted)
 - Create 'Add to Board' button (Ted)
-- Create Add tags functionality for searchablity (Ted)
 - Create last-modified and created-on timestamps (Ted)
 ## 4. Modifying a Post-It - 4 days
 As a User, I can modify an existing post-it content and aesthetics.
@@ -81,6 +80,7 @@ As a User, I can create a Board to group interests/topics
 - Create Delete/Trash Can board functionality (Isabela)
 - Create Board Themes functionality (Isabela)
 - Create Search Post-It Note functionality (Adam/Isabela)
+- Create Add tags functionality for searchablity (Ted)
 ## 8. Board Collaboration - 14 days
 As a User, I can share my board with friends.
 - Create Share via Copy Link functionality (Mabel/Ted)
