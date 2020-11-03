@@ -24,6 +24,8 @@ All users, including us! It's a public app.
 14. Press Enter
 15. Copy & Paste local host http://127.0.0.1:5000/ into internet browser
 16. That's it, you're running the app :)
+## Tests:
+In the applications root folder, run pytest
 # User Stories:
 ## 1. Account Creation & Login - 3 days
 As a User, I can create an account and login.
