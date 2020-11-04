@@ -24,6 +24,8 @@ All users, including us! It's a public app.
 14. Press Enter
 15. Copy & Paste local host http://127.0.0.1:5000/ into internet browser
 16. That's it, you're running the app :)
+## Tests:
+In the applications root folder, run pytest
 # User Stories:
 ## 1. Account Creation & Login - 3 days
 As a User, I can create an account and login.
@@ -65,7 +67,6 @@ As a User, I can modify an existing post-it content and aesthetics.
 - Create Edit functionality (Adam)
 - Create Change Post-It Colors selectability (Adam)
 - Create Change Text-Editing abilities / Font-style selections (Adam)
-- Create Change 'Add to Board' button (Adam)
 ## 5. Delete a Post-It - 3 days
 As a User, I can delete a post-it.
 - Create delete/Trash can functionality (Mabel)
@@ -81,6 +82,7 @@ As a User, I can create a Board to group interests/topics
 - Create Board Themes functionality (Isabela)
 - Create Search Post-It Note functionality (Adam/Isabela)
 - Create Add tags functionality for searchablity (Ted)
+- Create Change 'Add to Board' button (Adam)
 ## 8. Board Collaboration - 14 days
 As a User, I can share my board with friends.
 - Create Share via Copy Link functionality (Mabel/Ted)
