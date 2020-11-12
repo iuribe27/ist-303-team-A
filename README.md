@@ -71,10 +71,10 @@ As a User, I can modify an existing post-it content and aesthetics.
 As a User, I can delete a post-it.
 - Create delete/Trash can functionality (Mabel)
 - Create 'Are you sure?' confirmation pop-up window? (Mabel)
-## 6. Re-arranging a Post-It - 10 days
+## 6. Re-arranging a Post-It - 6 days
 As a User, I can re-arrange post-its in any order
 - Create the Select-And-Drag functionality (Isabela)
-## 7. Creating a Board - 10 days
+## 7. Creating a Board - 6 days
 As a User, I can create a Board to group interests/topics
 - Create a New Board functionality (Adam)
 - Add Post-It Notes to Board functionality (Adam)
@@ -83,7 +83,7 @@ As a User, I can create a Board to group interests/topics
 - Create Search Post-It Note functionality (Adam/Isabela)
 - Create Add tags functionality for searchablity (Ted)
 - Create Change 'Add to Board' button (Adam)
-## 8. Board Collaboration - 14 days
+## 8. Board Collaboration - 4 days
 As a User, I can share my board with friends.
 - Create Share via Copy Link functionality (Mabel/Ted)
 - Create 'Invite Friends' functionality (Mabel/Ted)
@@ -95,5 +95,11 @@ As a User, I can share my board with friends.
 ## Iteration 2 (20 days)
 4. Modifying a Post-It
 5. Delete a Post-It
+# Milestone 2.0 (2 iterations) - 16 days (40 days at a 0.4 velocity):
+## Iteration 1 (20 days)
+6. Re-arranging a Post-It
+7. Creating a Board
+## Iteration 2 (20 days)
+8. Board Collaboration
 # Burndown Progress Chart
 To view click here https://1drv.ms/x/s!BEcHh6Oz5R4dg-Z1qyebkecY3OvNTA?e=uvL1eM
