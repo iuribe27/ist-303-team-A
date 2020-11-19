@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Post-It Fo' Lyfe - Customizable sticky notes for the web.">
+    <meta name="author" content="Javi Filella">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Post-It Fo' Lyfe Sticky notes for the web</title>
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="libs/jquery-ui/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="libs/trumbowyg/dist/ui/trumbowyg.css">
+    <link rel="stylesheet" href="libs/minicolors/jquery.minicolors.css">
+    <link rel="stylesheet" href="dist/jquery.postitall.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+  
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <!-- Navigation -->
+          <nav class="navbar navbar-dark navbar-light navbar-fixed-top">
+              <div class="container">
+                  <ul class="nav navbar-nav pull-left">
+                      <li class="nav-item"><a class="navbar-brand masthead-brand" href="index.html">Reload Post-It Fo' Lyfe! (Welcome Notes)</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav pull-right">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#" id="idAddNote"><i class=""><img src="img/add.png" alt="Add a new sticky note"></i> Add Notes</a>
+                    </li>
+                  </ul>
+              </div>
+          </nav>
+
+          <div class="inner cover">
+            <h1 class="cover-heading" id="idTitle"><i class="fa fa-sticky-note fa-fw"></i>Post-It Fo' Lyfe</h1>
+            <p class="lead">Customizable sticky notes for the web.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer class="footer">
+	
+	<!-- share-links -->         
+    <!-- AddToAny BEGIN -->
+	<a class="a2a_dd" href="https://www.addtoany.com/share">
+	<img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="305" height="25" border="5" alt="Share">
+	</a>
+	<script async src="https://static.addtoany.com/menu/page.js">
+	</script>
+	<!-- AddToAny END -->
+	
+	
+	
+        <div class="container">
+            <p>&copy; <a href="">Post-It Fo' Lyfe 2020</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="libs/jquery-ui/jquery-ui.min.js"></script>
+    <script src="libs/trumbowyg/dist/trumbowyg.min.js"></script>
+    <script src="libs/minicolors/jquery.minicolors.min.js"></script>
+    <script src="dist/jquery.postitall.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+    //Globals
+    $.fn.postitall.defaults.style.fontfamily = "'Shadows Into Light', sans-serif";
+    $.fn.postitall.defaults.style.fontsize = "larger";
+    $(document).ready(function() {
+      $.PostItAll.new({
+          content: "<p style='text-align:center;font-size:large;'>Hi and welcome to Post-It Fo' Lyfe<br><br>Enjoy!! :)</p>",
+          width: 300,
+          style: {
+            fontfamily: "'Shadows Into Light', sans-serif",
+            tresd: false
+          },
+          features: {
+              toolbar: false,
+              randomColor: false,
+          },
+          flags: {
+              fixed: true,
+              blocked: true
+          },
+          attachedTo : {
+              element: '#idTitle',
+              position: 'top'
+          },
+          onCreated: function(id) {
+              setTimeout(function() {
+                $.PostItAll.destroy(id);
+            }, 8000);
+          }
+      });
+    });
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71086346-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+  </body>
+</html>
