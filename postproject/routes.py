@@ -93,3 +93,8 @@ def account():
 @app.route('/post_its', methods=['GET','POST'])
 def post_its():
     return render_template('index.html')
+
+#Create Post-Its - Ted's Code Version 2
+@app.route('/post_its_v2', methods=['GET','POST'])
+def post_its_v2():
+    return render_template('index_v2.html')
