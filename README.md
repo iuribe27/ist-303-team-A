@@ -26,6 +26,8 @@ All users, including us! It's a public app.
 16. That's it, you're running the app :)
 ## Tests:
 In the applications root folder, run pytest
+## Test Coverage:
+In the applications root folder, run pytest --cov
 # User Stories:
 ## 1. Account Creation & Login - 3 days
 As a User, I can create an account and login.
@@ -103,3 +105,8 @@ As a User, I can share my board with friends.
 8. Board Collaboration
 # Burndown Progress Chart
 To view click here https://1drv.ms/x/s!BEcHh6Oz5R4dg-Z1qyebkecY3OvNTA?e=uvL1eM
+# Three Most Important Things We Learned About Software Development
+1. Don't underestimate the complexity behind implementing simple features!
+2. Plan, Plan, Plan! Have a project plan in place before writing code.
+3. Testing! Always test your code and have someone else review it. 
+
