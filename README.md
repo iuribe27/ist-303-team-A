@@ -12,7 +12,7 @@ All users, including us! It's a public app.
 2. Press Enter
 3. Create virtual environment by typing into Command Prompt: virtualenv venv
 4. Press Enter
-5. Activate virtual environment by typing into Command Prompt: .\venv\Scripts\activate
+5. Activate virtual environment by typing into Command Prompt: .\venv\Scripts\activate (For MacOS: source venv/bin/activate)
 6. Press Enter
 7. Clone Application repository by typing into Command Prompt: git clone https://github.com/iuribe27/ist-303-team-A.git
 8. Press Enter
