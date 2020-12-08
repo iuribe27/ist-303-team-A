@@ -20,7 +20,7 @@ All users, including us! It's a public app.
 10. Press Enter
 11. Install requirement packages by typing into Command Prompt: pip install -r requirements.txt
 12. Press Enter
-13. Start a Python interpreter by typing into the Command Prompt: Python3
+13. Start a Python interpreter by typing into the Command Prompt: python3
 14. Press Enter
 15. Import the Database Object by typing into the interpreter: from postproject import db
 16. Press Enter
