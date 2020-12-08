@@ -20,10 +20,18 @@ All users, including us! It's a public app.
 10. Press Enter
 11. Install requirement packages by typing into Command Prompt: pip install -r requirements.txt
 12. Press Enter
-13. Start the program by typing into Command Prompt: python3 run.py
+13. Start a Python interpreter by typing into the Command Prompt: Python3
 14. Press Enter
-15. Copy & Paste local host http://127.0.0.1:5000/ into internet browser
-16. That's it, you're running the app :)
+15. Import the Database Object by typing into the interpreter: from postproject import db
+16. Press Enter
+17. Initialize the database by typing into the interpreter: db.create_all()
+18. Press Enter
+19. Exit the Interpreter by typing into the interpreter: exit()
+20. Press Enter
+21. Start the program by typing into Command Prompt: python3 run.py
+22. Press Enter
+23. Copy & Paste local host http://127.0.0.1:5000/ into internet browser
+24. That's it, you're running the app :)
 ## Tests:
 In the applications root folder, run pytest
 ## Test Coverage:
