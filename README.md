@@ -28,7 +28,7 @@ All users, including us! It's a public app.
 18. Press Enter
 19. Exit the Interpreter by typing into the interpreter: exit()
 20. Press Enter
-21. Start the program by typing into Command Prompt: python run.py (or pyhton3 if you multiple versions of python)
+21. Start the program by typing into Command Prompt: python run.py (or python3 if you multiple versions of python)
 22. Press Enter
 23. Copy & Paste local host http://127.0.0.1:5000/ into internet browser
 24. That's it, you're running the app :)
